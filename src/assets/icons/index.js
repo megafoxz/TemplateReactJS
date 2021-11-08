@@ -1,0 +1,8 @@
+export { ReactComponent as IconAddCircle } from './addCircle.svg'
+export { ReactComponent as IconLogo } from './logo.png'
+export { ReactComponent as IconCar } from './IconCar.svg'
+export { ReactComponent as IconCustomer } from './Customer.svg'
+export { ReactComponent as IconCustomerReturn } from './CustomerReturn.svg'
+export { ReactComponent as IconMoney } from './Money.svg'
+export { ReactComponent as IconSMS } from './SMSSent.svg'
+export { ReactComponent as IconCopy } from './copy_icon.svg'

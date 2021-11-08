@@ -1,0 +1,23 @@
+@import '../../main.scss';
+
+.ant-layout {
+  min-height: 100vh;
+
+  .conent{
+    min-height: calc(100vh - 140px);
+  }
+
+  .footer {
+    width: 100%;
+    display: flex;
+    padding: 0 12px;
+    justify-content: space-between;
+  
+    span {
+      color: $--unnamed-color-d6d6d6;
+      text-align: right;
+      font: normal normal bold 10px 13px sans-serif;
+      letter-spacing: 0px;
+    }
+  }
+}

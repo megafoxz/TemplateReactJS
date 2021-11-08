@@ -1,0 +1,33 @@
+@import "./main";
+
+.ant-table-thead {
+    tr {
+        th {
+            text-align: center;
+            font: normal normal bold 16px/20px sans-serif;
+            letter-spacing: 0px;
+            color: #6B6B6B;
+        }
+    }
+}
+.ant-table-row {
+    td {
+        text-align: left;
+        font: normal normal 600 14px/20px sans-serif;
+        letter-spacing: 0px;
+        color: $--unnamed-color-24242600;
+    }
+
+    .blue-text {
+        color: var(--main-color);
+    }
+}
+
+.ant-table-cell {
+    min-height: 58px !important;
+    max-height: 77px !important;
+}
+
+.ant-pagination-options {
+    display: none;
+}

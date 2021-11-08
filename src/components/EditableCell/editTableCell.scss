@@ -1,0 +1,17 @@
+.editable-cell {
+  &__wrap {
+    width: 100%;
+    min-height: 58px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__wrap_null {
+    width: 100%;
+    min-height: 30px;
+    border-radius: 8px;
+    background-color: #CE0000;
+    cursor: pointer;
+  }
+}

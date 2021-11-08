@@ -11,17 +11,17 @@ i18next
   .use(initReactI18next)
   .init({
     interpolation: { escapeValue: false },  // React already does escaping
-    lng: "en",                              // language to use
+    lng: "vi",                              // language to use
     resources: {
-      en: {
-        translation: messages.en               // 'common' is our custom namespace
-      },
       vi: {
         translation: messages.vi
+      },
+      en: {
+        translation: messages.en               // 'common' is our custom namespace
       }
     },
     debug: process.env.NODE_ENV !== "production",
-    fallbackLng: "en"
+    fallbackLng: "vi"
   });
 
 

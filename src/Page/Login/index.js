@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next'
 import './login.scss'
-import { handleSignin } from '../../actions'
+import { handleSignin } from "../../actions"
 import { useDispatch } from 'react-redux';
 import { Form, Input, Button, notification } from 'antd';
 import LoginService from '../../services/loginService';
@@ -10,7 +10,7 @@ function Login(props) {
 	const { t: translation } = useTranslation()
 	const { history } = props
 
-	const dispatch = useDispatch()
+	 const dispatch = useDispatch()
 
 	const onFinish = (values) => {
 		LoginService.Signin(values).then((result) => {

@@ -1,18 +1,18 @@
 # Create image based on the official Node image from dockerhub
-FROM node:10.9 as cache-image
+FROM node:12.22 as cache-image
 
 # Bundle app source
 COPY . /usr/src/app/
 
 WORKDIR /usr/src/app
-RUN npm install
+RUN yarn install
 
 # Build frontend
 FROM cache-image as builder
 WORKDIR /usr/src/app
 COPY . /usr/src/app
 
-RUN npm run build
+RUN yarn build
 
 # PROD environment
 # Create image based on the official NGINX image from dockerhub
